@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <binhorsum>
+    <binID>2</binID>
+    <BFWID>8</BFWID>
+    <HAFLAve>180</HAFLAve>
+    <HAFRAve>180</HAFRAve>
+    <HACorr>0</HACorr>
+    <HAFL>180</HAFL>
+    <HAFR>180</HAFR>
+    <HAFLErr>0</HAFLErr>
+    <HAFRErr>0</HAFRErr>
+    <HAFLCnt>2</HAFLCnt>
+    <HAFRCnt>2</HAFRCnt>
+  </binhorsum>
+  <binhorsum />
+  <binhorsum />
+  <binhorsum />
+  <binhorsum />
+  <binhorsum />
+  <binhorsum />
+  <binhorsum />
+  <binhorsum />
+  <binhorsum />
+  <binhorsum />
+  <binhorsum />
+  <binhorsum>
+    <binID>1</binID>
+    <BFWID>1</BFWID>
+    <HAFLAve>180</HAFLAve>
+    <HAFRAve>179.596</HAFRAve>
+    <HACorr>0</HACorr>
+    <HAFL>180</HAFL>
+    <HAFR>179.596</HAFR>
+    <HAFLErr>0</HAFLErr>
+    <HAFRErr>0.001</HAFRErr>
+    <HAFLCnt>2</HAFLCnt>
+    <HAFRCnt>2</HAFRCnt>
+  </binhorsum>
+</DocumentElement>

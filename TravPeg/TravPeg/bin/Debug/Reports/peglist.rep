@@ -1,0 +1,271 @@
+object TRpReport
+  PageBackColor = 16777215
+  SubReports = <
+    item
+      SubReport = TRpSubReport0
+    end>
+  DataInfo = <
+    item
+      Alias = 'V_PEG'
+      DatabaseAlias = 'TRAVDATA'
+      SQL = 'select * from v_Peg order by Peg'
+    end>
+  DatabaseInfo = <
+    item
+      Alias = 'TRAVDATA'
+      LoadParams = True
+      LoadDriverParams = True
+      LoginPrompt = False
+      Driver = rpdataado
+      ReportTable = 'REPMAN_REPORTS'
+      ReportSearchField = 'REPORT_NAME'
+      ReportField = 'REPORT'
+      ReportGroupsTable = 'REPMAN_GROUPS'
+      ADOConnectionString = 
+        'Provider=SQLOLEDB.1;Persist Security Info=True;User ID=travdata;' +
+        'Password=Tr4vd4t4;Initial Catalog=travdata;Data Source=EDDIE-PC\' +
+        'SQLEXPRESS'
+    end>
+  Params = <>
+  StreamFormat = rpStreamText
+  ReportAction = []
+  Type1Font = poHelvetica
+  WFontName = 'Arial'
+  LFontName = 'Helvetica'
+  object TRpSubReport0: TRpSubReport
+    Sections = <
+      item
+        Section = TRpSection1
+      end
+      item
+        Section = TRpSection0
+      end>
+    Alias = 'V_PEG'
+  end
+  object TRpSection0: TRpSection
+    Width = 10772
+    Height = 285
+    SubReport = TRpSubReport0
+    ChangeBool = False
+    PageRepeat = False
+    SkipPage = False
+    AlignBottom = False
+    SectionType = rpsecdetail
+    Components = <
+      item
+        Component = TRpExpression0
+      end
+      item
+        Component = TRpExpression1
+      end
+      item
+        Component = TRpExpression2
+      end
+      item
+        Component = TRpExpression3
+      end
+      item
+        Component = TRpExpression4
+      end
+      item
+        Component = TRpExpression5
+      end>
+    ExternalTable = 'REPMAN_REPORTS'
+    ExternalField = 'REPORT'
+    ExternalSearchField = 'REPORT_NAME'
+    StreamFormat = rpStreamText
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    ChangeExpression = ''
+    BeginPageExpression = ''
+    ChangeExpression = ''
+    SkipExpreV = ''
+    SkipExpreH = ''
+    SkipToPageExpre = ''
+    BackExpression = ''
+    Stream = {0000000000000000}
+  end
+  object TRpSection1: TRpSection
+    Width = 10772
+    Height = 450
+    SubReport = TRpSubReport0
+    ChangeBool = False
+    PageRepeat = False
+    SkipPage = False
+    AlignBottom = False
+    SectionType = rpsecpheader
+    Components = <
+      item
+        Component = TRpLabel0
+      end>
+    ExternalTable = 'REPMAN_REPORTS'
+    ExternalField = 'REPORT'
+    ExternalSearchField = 'REPORT_NAME'
+    StreamFormat = rpStreamText
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    ChangeExpression = ''
+    BeginPageExpression = ''
+    ChangeExpression = ''
+    SkipExpreV = ''
+    SkipExpreH = ''
+    SkipToPageExpre = ''
+    BackExpression = ''
+    Stream = {0000000000000000}
+  end
+  object TRpLabel0: TRpLabel
+    Width = 2445
+    Height = 225
+    PosX = 345
+    PosY = 120
+    Type1Font = poHelvetica
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    WideText = 'Peg List'
+  end
+  object TRpExpression0: TRpExpression
+    Width = 1050
+    Height = 264
+    PosX = 285
+    PosY = 0
+    Type1Font = poHelvetica
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'V_PEG.PegID'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression1: TRpExpression
+    Width = 1950
+    Height = 240
+    PosX = 1380
+    PosY = 0
+    Type1Font = poHelvetica
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'V_PEG.Peg'
+    DisplayFormat = ''
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression2: TRpExpression
+    Width = 1050
+    Height = 264
+    PosX = 3435
+    PosY = 0
+    Type1Font = poHelvetica
+    Alignment = 2
+    DisplayFormat = '0.000'
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'V_PEG.X'
+    DisplayFormat = '0.000'
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression3: TRpExpression
+    Width = 1050
+    Height = 264
+    PosX = 4590
+    PosY = 0
+    Type1Font = poHelvetica
+    Alignment = 2
+    DisplayFormat = '0.000'
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'V_PEG.Y'
+    DisplayFormat = '0.000'
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression4: TRpExpression
+    Width = 1050
+    Height = 264
+    PosX = 5745
+    PosY = 0
+    Type1Font = poHelvetica
+    Alignment = 2
+    DisplayFormat = '0.000'
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'V_PEG.Z'
+    DisplayFormat = '0.000'
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+  object TRpExpression5: TRpExpression
+    Width = 1050
+    Height = 264
+    PosX = 6900
+    PosY = 0
+    Type1Font = poHelvetica
+    Alignment = 2
+    DisplayFormat = '0.000'
+    AutoExpand = False
+    AutoContract = False
+    ExportPosition = 0
+    ExportSize = 1
+    ExportDoNewLine = False
+    PrintCondition = ''
+    DoBeforePrint = ''
+    DoAfterPrint = ''
+    WFontName = 'Arial'
+    LFontName = 'Helvetica'
+    Expression = 'V_PEG.G'
+    DisplayFormat = '0.000'
+    ExportDisplayFormat = ''
+    AgIniValue = '0'
+    ExportExpression = ''
+  end
+end

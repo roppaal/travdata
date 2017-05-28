@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <binvertsum>
+    <binID>2</binID>
+    <BFWID>8</BFWID>
+    <BSCnt>2</BSCnt>
+    <BSHD>19.9999996239291</BSHD>
+    <BSED>0.001939254675814905</BSED>
+    <BSHDErr>3.7607090064284421E-07</BSHDErr>
+    <BSEDErr>0.001939254675814905</BSEDErr>
+    <FSCnt>2</FSCnt>
+    <FSHD>20</FSHD>
+    <FSED>0</FSED>
+    <FSHDErr>0</FSHDErr>
+    <FSEDErr>0</FSEDErr>
+  </binvertsum>
+  <binvertsum />
+  <binvertsum />
+  <binvertsum />
+  <binvertsum />
+  <binvertsum />
+  <binvertsum />
+  <binvertsum />
+  <binvertsum />
+  <binvertsum />
+  <binvertsum />
+  <binvertsum />
+  <binvertsum />
+  <binvertsum />
+  <binvertsum />
+  <binvertsum />
+  <binvertsum>
+    <binID>1</binID>
+    <BFWID>1</BFWID>
+    <BSCnt>2</BSCnt>
+    <BSHD>8.9441359549995809</BSHD>
+    <BSED>-1</BSED>
+    <BSHDErr>0.00013595499958007906</BSHDErr>
+    <BSEDErr>0</BSEDErr>
+    <FSCnt>2</FSCnt>
+    <FSHD>19.999999247858234</FSHD>
+    <FSED>0.0038785093516298108</FSED>
+    <FSHDErr>7.5214176931126531E-07</FSHDErr>
+    <FSEDErr>0.0038785093516298108</FSEDErr>
+  </binvertsum>
+</DocumentElement>

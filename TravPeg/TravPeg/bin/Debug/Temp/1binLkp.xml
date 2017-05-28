@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <binLkp>
+    <CCID>1</CCID>
+    <LkpTypeID>5</LkpTypeID>
+    <Lookup>Workplace</Lookup>
+    <LkpID>0</LkpID>
+    <LkpVal>&lt;select&gt;</LkpVal>
+    <DataType>Combo</DataType>
+  </binLkp>
+  <binLkp>
+    <CCID>1</CCID>
+    <LkpTypeID>4</LkpTypeID>
+    <Lookup>Shaft</Lookup>
+    <LkpID>0</LkpID>
+    <LkpVal>&lt;select&gt;</LkpVal>
+    <DataType>Combo</DataType>
+  </binLkp>
+  <binLkp>
+    <CCID>1</CCID>
+    <LkpTypeID>1</LkpTypeID>
+    <Lookup>Surveyor</Lookup>
+    <LkpID>0</LkpID>
+    <LkpVal>&lt;select&gt;</LkpVal>
+    <DataType>Combo</DataType>
+  </binLkp>
+</DocumentElement>
